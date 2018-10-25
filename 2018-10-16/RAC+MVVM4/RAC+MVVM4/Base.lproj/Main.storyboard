@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vgz-yK-H9w">
+                                <rect key="frame" x="16" y="77" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EJK-9E-v4K">
+                                <rect key="frame" x="16" y="138" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TS7-jp-lWb">
+                                <rect key="frame" x="16" y="196" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDR-ku-gc4">
+                                <rect key="frame" x="16" y="266" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Vgz-yK-H9w" firstAttribute="leading" secondItem="EJK-9E-v4K" secondAttribute="leading" id="ATD-ZJ-1KT"/>
+                            <constraint firstItem="Vgz-yK-H9w" firstAttribute="trailing" secondItem="EJK-9E-v4K" secondAttribute="trailing" id="Amm-jK-jGC"/>
+                            <constraint firstItem="SDR-ku-gc4" firstAttribute="top" secondItem="TS7-jp-lWb" secondAttribute="bottom" constant="40" id="C55-vH-ch7"/>
+                            <constraint firstItem="EJK-9E-v4K" firstAttribute="top" secondItem="Vgz-yK-H9w" secondAttribute="bottom" constant="31" id="GVI-S5-XFN"/>
+                            <constraint firstItem="Vgz-yK-H9w" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="33" id="U1f-dx-k0z"/>
+                            <constraint firstItem="TS7-jp-lWb" firstAttribute="top" secondItem="EJK-9E-v4K" secondAttribute="bottom" constant="28" id="VJz-nM-XPs"/>
+                            <constraint firstItem="Vgz-yK-H9w" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="YlE-2Z-4Y2"/>
+                            <constraint firstItem="EJK-9E-v4K" firstAttribute="trailing" secondItem="TS7-jp-lWb" secondAttribute="trailing" id="cIu-cF-byq"/>
+                            <constraint firstItem="Vgz-yK-H9w" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="cz4-Yn-RpC"/>
+                            <constraint firstItem="TS7-jp-lWb" firstAttribute="leading" secondItem="SDR-ku-gc4" secondAttribute="leading" id="e2a-Mg-s0g"/>
+                            <constraint firstItem="TS7-jp-lWb" firstAttribute="trailing" secondItem="SDR-ku-gc4" secondAttribute="trailing" id="jwU-dg-iq4"/>
+                            <constraint firstItem="EJK-9E-v4K" firstAttribute="leading" secondItem="TS7-jp-lWb" secondAttribute="leading" id="ydD-Q0-hvz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="firstTextfiled" destination="Vgz-yK-H9w" id="iPa-5r-9kV"/>
+                        <outlet property="resultLabel" destination="SDR-ku-gc4" id="6WB-Te-Be7"/>
+                        <outlet property="secondTextfield" destination="EJK-9E-v4K" id="QIi-Q1-gok"/>
+                        <outlet property="thirdTextfield" destination="TS7-jp-lWb" id="lTh-ls-icX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="131.52709359605913"/>
+        </scene>
+    </scenes>
+</document>

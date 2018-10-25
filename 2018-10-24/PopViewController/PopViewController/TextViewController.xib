@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TextViewController">
+            <connections>
+                <outlet property="confirm_button" destination="Jdk-qJ-PPf" id="n69-0d-W2z"/>
+                <outlet property="textField" destination="Tei-Yh-q8b" id="HXk-yN-dfN"/>
+                <outlet property="text_button" destination="9FI-9p-JzN" id="siM-zZ-2C8"/>
+                <outlet property="text_view" destination="caQ-Bf-tXp" id="7ol-3W-DJF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="RNG是世界冠军，UZI是世界第一ADC！" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="caQ-Bf-tXp">
+                    <rect key="frame" x="16" y="26" width="343" height="583"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9FI-9p-JzN">
+                    <rect key="frame" x="16" y="617" width="343" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="回复">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="text_something:" destination="-1" eventType="touchUpInside" id="boi-8G-eQO"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jdk-qJ-PPf">
+                    <rect key="frame" x="16" y="617" width="343" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="确认回复">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="confirm_something:" destination="-1" eventType="touchUpInside" id="MBy-rb-xMk"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tei-Yh-q8b">
+                    <rect key="frame" x="16" y="579" width="343" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <action selector="textfiledChange:" destination="-1" eventType="editingDidEnd" id="9rx-UP-o6K"/>
+                    </connections>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="caQ-Bf-tXp" firstAttribute="leading" secondItem="Tei-Yh-q8b" secondAttribute="leading" id="Ej4-NX-NgE"/>
+                <constraint firstItem="caQ-Bf-tXp" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="EzK-3w-mt0"/>
+                <constraint firstItem="9FI-9p-JzN" firstAttribute="trailing" secondItem="Jdk-qJ-PPf" secondAttribute="trailing" id="I88-uX-XME"/>
+                <constraint firstItem="Jdk-qJ-PPf" firstAttribute="top" secondItem="Tei-Yh-q8b" secondAttribute="bottom" constant="8" symbolic="YES" id="Jcn-C0-DKV"/>
+                <constraint firstItem="9FI-9p-JzN" firstAttribute="top" secondItem="caQ-Bf-tXp" secondAttribute="bottom" constant="8" symbolic="YES" id="KC9-Ff-cFB"/>
+                <constraint firstItem="caQ-Bf-tXp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="LNa-Eg-uKV"/>
+                <constraint firstAttribute="bottom" secondItem="Jdk-qJ-PPf" secondAttribute="bottom" constant="20" symbolic="YES" id="Qc7-N1-feE"/>
+                <constraint firstItem="Tei-Yh-q8b" firstAttribute="leading" secondItem="9FI-9p-JzN" secondAttribute="leading" id="W0S-Np-Pyn"/>
+                <constraint firstItem="caQ-Bf-tXp" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="6" id="bXf-uD-K9w"/>
+                <constraint firstItem="Tei-Yh-q8b" firstAttribute="trailing" secondItem="Jdk-qJ-PPf" secondAttribute="trailing" id="k0R-x3-386"/>
+                <constraint firstItem="caQ-Bf-tXp" firstAttribute="trailing" secondItem="Tei-Yh-q8b" secondAttribute="trailing" id="nI0-TB-cHC"/>
+                <constraint firstItem="Jdk-qJ-PPf" firstAttribute="baseline" secondItem="9FI-9p-JzN" secondAttribute="baseline" id="r0A-Bi-Exl"/>
+                <constraint firstItem="9FI-9p-JzN" firstAttribute="leading" secondItem="Jdk-qJ-PPf" secondAttribute="leading" id="wM5-qg-1L9"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="138.40000000000001" y="120.98950524737631"/>
+        </view>
+    </objects>
+</document>
