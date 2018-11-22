@@ -5,9 +5,9 @@
 //  Created by qiuyaoyao on 16/6/5.
 //  Copyright © 2016年 runagain. All rights reserved.
 //
-//TODO：正式用的时候封装数据源和代理，
-//TODO：不需要背景一层一层的，需求是只需要统一的一张背景图
-//TODO：需求是扁平的不规则五边形，不是正五边形，
+// TODO:正式用的时候封装数据源和代理，
+// TODO:不需要背景一层一层的，需求是只需要统一的一张背景图
+// TODO:需求是扁平的不规则五边形，不是正五边形，
 
 #import "ViewController.h"
 #import "RAShareChartView.h"
