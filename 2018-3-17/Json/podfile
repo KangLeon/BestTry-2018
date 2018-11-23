@@ -6,5 +6,5 @@ target 'Json' do
   # use_frameworks!
 
   # Pods for Json
-pod 'AFNetworking', '~> 3.2.0'
+pod 'AFNetworking', '~> 3.2.1'
 end

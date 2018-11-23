@@ -6,5 +6,5 @@ target 'AFNetWorking' do
   # use_frameworks!
 
   # Pods for AFNetWorking
-pod 'AFNetworking', '~> 3.2.0'
+pod 'AFNetworking', '~> 3.2.1'
 end

@@ -9,7 +9,7 @@
 //是关于AFNetworking，但是我想通过进度条显示出来却没办法，
 
 #import "ViewController.h"
-#import "AFNetWorking.h"
+#import <AFNetworking.h>
 
 @interface ViewController ()
 @property(strong,nonatomic) UIProgressView *myProgress;

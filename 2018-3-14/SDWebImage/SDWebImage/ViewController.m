@@ -23,7 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 //    self.navigationController.title=@"你好啊";//这种方法给添加标题是无法的显示的，错的
-    self.navigationItem.title=@"加载网络视图Demo";
+    self.navigationItem.title=@"iOS书籍检索";
 //    self.title=@"你好啊";//这种优先级是最高的，
     self.navigationController.navigationBar.tintColor=[UIColor blackColor];
     
