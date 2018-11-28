@@ -32,13 +32,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    
-    
+    //背景白色的球
     self.bubble1.transform=CGAffineTransformMakeScale(0, 0);
     self.bubble2.transform=CGAffineTransformMakeScale(0, 0);
     self.bubble3.transform=CGAffineTransformMakeScale(0, 0);
     self.bubble4.transform=CGAffineTransformMakeScale(0, 0);
     self.bubble5.transform=CGAffineTransformMakeScale(0, 0);
+    
     
     self.selfControl.center=CGPointMake(self.selfControl.center.x-self.view.frame.size.width,self.selfControl.center.y);
     self.line.center=CGPointMake(self.line.center.x-self.view.frame.size.width,self.line.center.y);
