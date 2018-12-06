@@ -71,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				596AA9D31D041CBD00BDCDFA /* ViewController */,
-				596AA9D41D041CCE00BDCDFA /* View */,
+				596AA9D41D041CCE00BDCDFA /* RadarChart */,
 				596AA9D21D041CA000BDCDFA /* Category */,
 				596AA9B21D041A7D00BDCDFA /* AppDelegate.h */,
 				596AA9B31D041A7D00BDCDFA /* AppDelegate.m */,
@@ -112,7 +112,7 @@
 			name = ViewController;
 			sourceTree = "<group>";
 		};
-		596AA9D41D041CCE00BDCDFA /* View */ = {
+		596AA9D41D041CCE00BDCDFA /* RadarChart */ = {
 			isa = PBXGroup;
 			children = (
 				596AA9C61D041C4700BDCDFA /* RADotView.h */,
@@ -120,7 +120,7 @@
 				596AA9C81D041C4700BDCDFA /* RAShareChartView.h */,
 				596AA9C91D041C4700BDCDFA /* RAShareChartView.m */,
 			);
-			name = View;
+			name = RadarChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +154,7 @@
 				TargetAttributes = {
 					596AA9AB1D041A7D00BDCDFA = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DR4WPFLXBN;
 					};
 				};
 			};
@@ -311,11 +312,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DR4WPFLXBN;
 				INFOPLIST_FILE = RadarChart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.runagain.RadarChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -323,11 +325,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = DR4WPFLXBN;
 				INFOPLIST_FILE = RadarChart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.runagain.RadarChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
