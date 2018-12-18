@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		29AD6BA9719E4B5366BC75DA /* libPods-MJExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A83CAB0BBEC40B97C96330F4 /* libPods-MJExtension.a */; };
+		59363FC621C7AD0100B2C9B9 /* Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 59363FC521C7AD0100B2C9B9 /* Base.m */; };
 		840BB85A21A64A940000936F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840BB85921A64A940000936F /* AppDelegate.m */; };
 		840BB85D21A64A940000936F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840BB85C21A64A940000936F /* ViewController.m */; };
 		840BB86021A64A940000936F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840BB85E21A64A940000936F /* Main.storyboard */; };
@@ -25,6 +26,8 @@
 
 /* Begin PBXFileReference section */
 		29BDFD345D4B532448EA8F0A /* Pods-MJExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJExtension.debug.xcconfig"; path = "Target Support Files/Pods-MJExtension/Pods-MJExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		59363FC421C7AD0100B2C9B9 /* Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
+		59363FC521C7AD0100B2C9B9 /* Base.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Base.m; sourceTree = "<group>"; };
 		6BF8F5C044F48706267C7328 /* Pods-MJExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJExtension.release.xcconfig"; path = "Target Support Files/Pods-MJExtension/Pods-MJExtension.release.xcconfig"; sourceTree = "<group>"; };
 		840BB85521A64A940000936F /* MJExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		840BB85821A64A940000936F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				840BB88121A679160000936F /* Book.m */,
 				840BB86E21A64AB30000936F /* User.h */,
 				840BB86F21A64AB30000936F /* User.m */,
+				59363FC421C7AD0100B2C9B9 /* Base.h */,
+				59363FC521C7AD0100B2C9B9 /* Base.m */,
 				840BB87121A64E240000936F /* Status.h */,
 				840BB87221A64E240000936F /* Status.m */,
 				840BB87A21A673D40000936F /* Ad.h */,
@@ -233,6 +238,7 @@
 				840BB86821A64A960000936F /* main.m in Sources */,
 				840BB87321A64E240000936F /* Status.m in Sources */,
 				840BB87C21A673D40000936F /* Ad.m in Sources */,
+				59363FC621C7AD0100B2C9B9 /* Base.m in Sources */,
 				840BB87921A654910000936F /* Student.m in Sources */,
 				840BB87621A652340000936F /* StatusResult.m in Sources */,
 				840BB85A21A64A940000936F /* AppDelegate.m in Sources */,

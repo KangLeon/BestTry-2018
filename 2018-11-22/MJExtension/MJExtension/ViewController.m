@@ -34,7 +34,8 @@
                                 @"height" : @"1.55",
                                 @"money" : @100.9,
                                 @"sex" : @(SexFemale),/* 枚举需要使用NSNumber包装 */
-                                @"gay" : @YES
+                                @"gay" : @YES,
+                                @"code":@"code"
                                 };
     User *user_dic=[User mj_objectWithKeyValues:dict_user];
     NSLog(@"%@",user_dic);

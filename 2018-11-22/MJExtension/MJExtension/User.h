@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Base.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -15,7 +16,7 @@ typedef enum {
     SexFemale
 } Sex;
 
-@interface User : NSObject
+@interface User : Base
 
 @property (copy, nonatomic) NSString *name;/* 姓名 */
 @property (copy, nonatomic) NSString *icon;/* 头像 */
