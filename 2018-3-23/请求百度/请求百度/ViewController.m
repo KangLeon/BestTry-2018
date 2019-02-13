@@ -26,7 +26,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     //1.连接百度的服务器 ,到gnetcat上ping百度就可以得到百度的ip地址
-    BOOL result=[self connect:@"119.75.216.20" port:80];
+    BOOL result=[self connect:@"10.0.0.1" port:80];
     if (!result) {
         NSLog(@"连接失败");
         return;
@@ -50,7 +50,7 @@
     //从\r\n\r\n之后的第一个位置开始截取字符串 响应体
     NSString *html=[response substringFromIndex:range.length+range.location];
     
-    [self.webView loadHTMLString:html baseURL:[NSURL URLWithString:@"http://www.baidu.com"]];
+    [self.webView loadHTMLString:html baseURL:[NSURL URLWithString:@"https://www-stg.koov.io/passcode/M98fDGlB"]];
     
     //关闭连接,http协议要求，请求结束后要关闭连接
     close(self.clientSocket);
