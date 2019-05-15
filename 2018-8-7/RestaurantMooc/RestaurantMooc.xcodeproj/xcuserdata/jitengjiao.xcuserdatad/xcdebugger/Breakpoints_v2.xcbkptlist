@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RestaurantMooc/ViewController.m"
-            timestampString = "555566082.382556"
+            timestampString = "578994782.143003"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "87"
@@ -217,12 +217,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RestaurantMooc/ViewController.m"
-            timestampString = "555566082.383293"
+            timestampString = "578994782.143488"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "174"
             endingLineNumber = "174"
-            landmarkName = "ViewController"
+            landmarkName = "@implementation ViewController"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
